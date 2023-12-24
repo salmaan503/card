@@ -12,7 +12,7 @@
  
 }
 .container{
-  width: 500px;
+  width: 700px;
   /* height: 300px; */
   margin: auto;
   
@@ -33,10 +33,12 @@
   font-size: 16px;
 
 }
-.requirement_years{
+.requirement_years,.requirement_salary{
   display: inline-block;
   margin-top: 14px;
   padding: 16px 0px;
+  margin-right: 10px;
+  font-weight: bold;
 }
 .desire{
   display: flex;
@@ -44,7 +46,10 @@
   margin: 12px 0px;
 }
 hr{
+  border: none;
   margin: 14px 0;
+  height: 1px;
+  background-color: rgb(8, 170, 157);
 }
 a{
   text-decoration: none;
