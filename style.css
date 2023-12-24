@@ -1,0 +1,74 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent_container{
+  display: flex;
+  justify-content: center;
+ 
+}
+.container{
+  width: 500px;
+  /* height: 300px; */
+  margin: auto;
+  
+
+  
+  
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 0 4px 4px rgba(0,0,0,0.2) ;
+  
+}
+.title{
+  color: rgb(8, 170, 157);
+
+}
+.subtitle{
+  margin-top: 4px;
+  font-size: 16px;
+
+}
+.requirement_years{
+  display: inline-block;
+  margin-top: 14px;
+  padding: 16px 0px;
+}
+.desire{
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0px;
+}
+hr{
+  margin: 14px 0;
+}
+a{
+  text-decoration: none;
+  color: rgb(8, 170, 157);
+}
+a:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.postDetail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  border: 1px solid rgb(8, 170, 157);
+  padding: 10px;
+  border-radius: 25px;
+
+}
+button:hover{
+  cursor: pointer;
+  background: rgb(8, 170, 157);
+  color: black;
+}
